@@ -16,6 +16,8 @@ You need to load 50,000 to five million records. If you need to load more than 5
 You need to load into an object that is not supported by the Data Import Wizard.
 You want to schedule regular data loads, such as nightly imports.
 
+A *profile* is a collection of settings and permissions. Profile settings determine which data the user can see, and permissions determine what the user can do with that data.
+
 
 **Standard Profiles**
 The platform includes a set of standard profiles. Some examples are:
