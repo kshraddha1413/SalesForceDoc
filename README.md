@@ -31,3 +31,10 @@ System Administrator
 The System Administrator profile also includes two special permissions:
 View All Data
 Modify All Data
+
+** four ways to control access to records**
+
+1)Org-wide defaults specify the default level of access users have to each other’s records.
+2)Role hierarchies ensure managers have access to the same records as their subordinates. Each role in the hierarchy represents a level of data access that a user or group of users needs.
+3)Sharing rules are automatic exceptions to org-wide defaults for particular groups of users, to give them access to records they don’t own or can’t normally see.
+4)Manual sharing lets record owners give read and edit permissions to users who might not have access to the record any other way.
