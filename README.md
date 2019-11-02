@@ -62,3 +62,10 @@ Since roll-up summary fields are based on master-detail relationships, it’s us
 Lightning Flow is the name of the product.
 Process Builder and Flow Builder are the names of the tools.
 Use Process Builder to make processes; use Flow Builder to make flows.
+
+**Prcocess builder**
+Process Builder is a point-and-click tool that lets you easily automate if/then business processes and see a graphical representation of your process as you build.
+*The Components of a Process*
+*Trigger*: Identify When the Process Should Run
+*Criteria*: Determine Whether or Not to Execute Actions
+*Actions*: What the Process Should Do
