@@ -54,3 +54,6 @@ The formula editor comes in two flavors: Simple and Advanced.
 
 **Introduction to Roll-Up Summary Fields**
 While formula fields calculate values using fields within a single record, roll-up summary fields calculate values from a set of related records, such as those in a related list. 
+
+**Defining a Roll-Up Summary Field**
+Since roll-up summary fields are based on master-detail relationships, it’s useful to review object relationships before creating a roll-up summary field.
