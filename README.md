@@ -51,3 +51,6 @@ Before creating a sharing rule, it’s important to set up the appropriate publi
 
 **Formula Field**
 The formula editor comes in two flavors: Simple and Advanced. 
+
+**Introduction to Roll-Up Summary Fields**
+While formula fields calculate values using fields within a single record, roll-up summary fields calculate values from a set of related records, such as those in a related list. 
