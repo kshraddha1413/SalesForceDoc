@@ -48,3 +48,6 @@ Each sharing rule has three components.
 
 *Define a Public Group*
 Before creating a sharing rule, it’s important to set up the appropriate public group. A public group is a collection of individual users, other groups, individual roles or territories, and/or roles or territories with their subordinates that all have a function in common.
+
+**Formula Field**
+The formula editor comes in two flavors: Simple and Advanced. 
