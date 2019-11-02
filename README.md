@@ -57,3 +57,8 @@ While formula fields calculate values using fields within a single record, roll-
 
 **Defining a Roll-Up Summary Field**
 Since roll-up summary fields are based on master-detail relationships, it’s useful to review object relationships before creating a roll-up summary field.
+
+**Lighting Flow**
+Lightning Flow is the name of the product.
+Process Builder and Flow Builder are the names of the tools.
+Use Process Builder to make processes; use Flow Builder to make flows.
