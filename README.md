@@ -98,7 +98,7 @@ Resources (3) are containers that represent a given value, such as field values 
  
   two main options you have for customizing your users’ navigation experience, the Mobile Only app and Lightning apps.
  
- 
+ Well, we need visual cues to find our way in apps, too. And that’s what the mobile navigation menu is: a signpost. Your users rely on it to get from place to place in the Salesforce mobile app as efficiently as possible.
  
  
  
