@@ -96,6 +96,9 @@ Resources (3) are containers that represent a given value, such as field values 
  Action layouts...global publisher layouts...page layouts…compact layouts.
  
  
+  two main options you have for customizing your users’ navigation experience, the Mobile Only app and Lightning apps.
+ 
+ 
  
  
  
