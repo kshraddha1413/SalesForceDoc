@@ -89,6 +89,8 @@ Resources (3) are containers that represent a given value, such as field values 
  1)global and 
  2)object-specific.
  
+ But be aware that global actions can’t update a record. Only object-specific actions can do that.
+ 
  
  
  
