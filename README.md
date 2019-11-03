@@ -84,3 +84,17 @@ Elements (1) appear on the canvas. To add an element to the canvas, click it or 
 Connectors (2) define the path that the flow takes at runtime. They tell the flow which element to execute next.
 Resources (3) are containers that represent a given value, such as field values or formulas. You can reference resources throughout your flow. For example, look up an account’s ID, store that ID in a variable, and later reference that ID to update the account.
 
+**Mobile App Customization**
+ There are two types of actions:
+ 1)global and 
+ 2)object-specific.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
