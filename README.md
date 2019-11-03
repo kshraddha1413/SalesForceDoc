@@ -69,3 +69,9 @@ Process Builder is a point-and-click tool that lets you easily automate if/then 
 *Trigger*: Identify When the Process Should Run
 *Criteria*: Determine Whether or Not to Execute Actions
 *Actions*: What the Process Should Do
+
+
+*Lightning Flow*—the product that encompasses building, managing, and running flows and processes.
+*Flow Builder*—a point-and-click tool for building flows.
+*Flow*—an application that automates a business process by collecting data and doing something in your Salesforce org or an external system.
+In short, the Lightning Flow product includes a couple of tools. One of them, Flow Builder, lets you create flows.
