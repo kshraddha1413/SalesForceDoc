@@ -100,6 +100,6 @@ Resources (3) are containers that represent a given value, such as field values 
  
  Well, we need visual cues to find our way in apps, too. And that’s what the mobile navigation menu is: a signpost. Your users rely on it to get from place to place in the Salesforce mobile app as efficiently as possible.
  
- 
+ **Apex** is a programming language that uses Java-like syntax and acts like database stored procedures. Apex enables developers to add business logic to system events, such as button clicks, updates of related records, and Visualforce pages.
  
 
