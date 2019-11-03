@@ -93,7 +93,7 @@ Resources (3) are containers that represent a given value, such as field values 
  
  
  
- 
+ Action layouts...global publisher layouts...page layouts…compact layouts.
  
  
  
