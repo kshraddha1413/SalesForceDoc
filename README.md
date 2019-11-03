@@ -65,13 +65,22 @@ Use Process Builder to make processes; use Flow Builder to make flows.
 
 **Prcocess builder**
 Process Builder is a point-and-click tool that lets you easily automate if/then business processes and see a graphical representation of your process as you build.
-*The Components of a Process*
-*Trigger*: Identify When the Process Should Run
-*Criteria*: Determine Whether or Not to Execute Actions
-*Actions*: What the Process Should Do
+**The Components of a Process**
+**Trigger**: Identify When the Process Should Run
+**Criteria**: Determine Whether or Not to Execute Actions
+**Actions**: What the Process Should Do
 
 
-*Lightning Flow*—the product that encompasses building, managing, and running flows and processes.
-*Flow Builder*—a point-and-click tool for building flows.
-*Flow*—an application that automates a business process by collecting data and doing something in your Salesforce org or an external system.
+**Lightning Flow**—the product that encompasses building, managing, and running flows and processes.
+**Flow Builder**—a point-and-click tool for building flows.
+**Flow**—an application that automates a business process by collecting data and doing something in your Salesforce org or an external system.
 In short, the Lightning Flow product includes a couple of tools. One of them, Flow Builder, lets you create flows.
+
+
+**Flow Building Blocks**
+Every flow is made up of three building blocks.
+
+Elements (1) appear on the canvas. To add an element to the canvas, click it or drag it there from the toolbox.
+Connectors (2) define the path that the flow takes at runtime. They tell the flow which element to execute next.
+Resources (3) are containers that represent a given value, such as field values or formulas. You can reference resources throughout your flow. For example, look up an account’s ID, store that ID in a variable, and later reference that ID to update the account.
+
