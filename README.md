@@ -135,3 +135,6 @@ Use DML statements if you want any error that occurs during bulk DML processing 
 Use Database class methods if you want to allow partial success of a bulk DML operation—if a record fails, the remainder of the DML operation can still succeed. Your application can then inspect the rejected records and possibly retry the operation. When using this form, you can write code that never throws DML exception errors. Instead, your code can use the appropriate results array to judge success or failure. Note that Database methods also include a syntax that supports thrown exceptions, similar to DML statements.
 Working with Related Records
 
+
+When SOQL is embedded in Apex, it is referred to as inline SOQL.
+
