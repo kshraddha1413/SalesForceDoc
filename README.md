@@ -102,4 +102,36 @@ Resources (3) are containers that represent a given value, such as field values 
  
  **Apex** is a programming language that uses Java-like syntax and acts like database stored procedures. Apex enables developers to add business logic to system events, such as button clicks, updates of related records, and Visualforce pages.
  
+ 
+ Because Apex is a data-focused language and is saved on the Lightning Platform, it has direct access to your data in Salesforce.
+ 
+ **DML Statements**
+The following DML statements are available.
+
+1)insert
+2)update
+3)upsert
+delete
+4)undelete
+5)merge
+
+The *upsert* DML operation creates new records and updates sObject records within a single statement, using a specified field to determine the presence of existing objects, or the ID field if no field is specified.
+
+The *merge* statement merges up to three records of the same sObject type into one of the records, deleting the others, and re-parenting any related records.
+
+
+
+You can retrieve a record from the database to obtain its fields, including the ID field, but this can’t be done with DML. You’ll need to write a query by using SOQL. You’ll learn about SOQL in another unit.
+
+
+You can perform DML operations either on a single sObject, or in bulk on a list of sObjects.
+
+
+You can delete persisted records using the delete statement. Deleted records aren’t deleted permanently from Lightning Platform, but they’re placed in the Recycle Bin for 15 days from where they can be restored.
+
+
+**Should You Use DML Statements or Database Methods?**
+Use DML statements if you want any error that occurs during bulk DML processing to be thrown as an Apex exception that immediately interrupts control flow (by using try. . .catch blocks). This behavior is similar to the way exceptions are handled in most database procedural languages.
+Use Database class methods if you want to allow partial success of a bulk DML operation—if a record fails, the remainder of the DML operation can still succeed. Your application can then inspect the rejected records and possibly retry the operation. When using this form, you can write code that never throws DML exception errors. Instead, your code can use the appropriate results array to judge success or failure. Note that Database methods also include a syntax that supports thrown exceptions, similar to DML statements.
+Working with Related Records
 
