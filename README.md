@@ -1,3 +1,14 @@
+Force.com, allows admins and developers to create websites and applications into the main Salesforce.com application.
+AppExchange is an online application marketplace for third-party applications that run on the Force.com platform.
+Heroku Enterprise gives developers the flexibility to create apps using their preferred languages and tools.
+Salesforce Thunder is big data and rules processing engine designed to analyze events and take personalized actions.
+Salesforce Sandbox allows developers to test ideas in a safe and isolated development environment.
+
+
+
+
+
+
 *Introduction to Data Import*
 =======
 Salesforce offers two main methods for importing data.
