@@ -157,6 +157,26 @@ There are two types of triggers.
 *Before triggers* are used to update or validate record values before they’re saved to the database.
 *After triggers* are used to access field values that are set by the system (such as a record's Id or LastModifiedDate field), and to affect changes in other records. The records that fire the after trigger are read-only.
 
+**USER:**
+A user is anyone who logs in to Salesforce. Users are employees at your company, such as sales reps, managers, and IT specialists, who need access to the company's records.
+
+Every user in Salesforce has a user account. The user account identifies the user, and the user account settings determine what features and records the user can access. Each user account contains at least the following:
+
+**Profiles:**
+Profiles determine what users can do in Salesforce. They come with a set of permissions which grant access to particular objects, fields, tabs, and records. Each user can have only one profile. Select profiles based on a user’s job function (the Standard User profile is the best choice for most users). Don’t give a user a profile with more access than the user needs to do their job. You can grant access to more items the user needs with a permission set.
+
+**Roles**
+Roles determine what users can see in Salesforce based on where they are located in the role hierarchy. Users at the top of the hierarchy can see all the data owned by users below them. Users at lower levels can't see data owned by users above them, or in other branches, unless sharing rules grant them access. Roles are optional but each user can have only one.
+If you have an org with many users, you may find it easier to assign roles when adding users. However, you can set up a role hierarchy and assign roles to users at any time. Roles are only available in Professional, Enterprise, Unlimited, Performance, and Developer editions of Salesforce.
+
+**the Lightning App Builder**
+
+The Lightning App Builder is a point-and-click tool that makes it easy to create custom pages for the Salesforce mobile app and Lightning Experience, giving your users what they need all in one place.
+
+But that’s not all. When you edit a Lightning app from the App Manager in Setup, you’re brought into the Lightning App Builder to manage the app’s settings. You can update the app’s branding, navigation, options, and manage the Lightning pages assigned to that app all in the Lightning App Builder.
+
+**Lightning Components**
+A Lightning component is a compact, configurable, and reusable element that you can add to a Lightning page in the Lightning App Builder.
 
 
 
